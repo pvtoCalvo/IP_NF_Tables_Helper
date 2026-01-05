@@ -1,0 +1,9 @@
+[package]
+name = "Tables_Manager"
+version = "1.0.0"
+edition = "2026"
+
+[dependencies]
+ratatui = "0.29.0"
+crossterm = "0.28.1"
+libc = "0.2"
