@@ -11,10 +11,19 @@ UI en terminal construida con ratatui para administrar nftables o iptables direc
 - nftables o iptables
 - permisos de root
 
-### Ejecutar
+### Ejecutar (binario)
+
+1. Descarga el archivo `tables-manager-vX-YOUR_TARGET.tar.gz` desde Releases.
+2. Extrae y ejecuta:
 
 ```bash
-cd rust-ui
+tar -xzf tables-manager-vX-YOUR_TARGET.tar.gz
+sudo ./tables-manager
+```
+
+### Ejecutar (desde fuente)
+
+```bash
 sudo cargo run
 ```
 
@@ -34,7 +43,7 @@ sudo cargo run
 
 ### Notas
 
-- Restaurar lista backups en `/var/backups/firewall-manager`.
+- Restaurar lista backups en `/var/backups/tables-manager`.
 - DRY-RUN imprime los comandos sin aplicarlos.
 
 ---
@@ -50,10 +59,19 @@ Terminal UI built with ratatui to manage nftables or iptables directly.
 - nftables or iptables
 - root privileges
 
-### Run
+### Run (binary)
+
+1. Download `tables-manager-vX-YOUR_TARGET.tar.gz` from Releases.
+2. Extract and run:
 
 ```bash
-cd rust-ui
+tar -xzf tables-manager-vX-YOUR_TARGET.tar.gz
+sudo ./tables-manager
+```
+
+### Run (from source)
+
+```bash
 sudo cargo run
 ```
 
@@ -73,7 +91,7 @@ sudo cargo run
 
 ### Notes
 
-- Restore lists backups in `/var/backups/firewall-manager`.
+- Restore lists backups in `/var/backups/tables-manager`.
 - DRY-RUN prints commands without applying them.
 
 ---
@@ -89,10 +107,19 @@ sudo cargo run
 - nftables 或 iptables
 - root 权限
 
-### 运行
+### 运行（二进制）
+
+1. 从 Releases 下载 `tables-manager-vX-YOUR_TARGET.tar.gz`。
+2. 解压并运行：
 
 ```bash
-cd rust-ui
+tar -xzf tables-manager-vX-YOUR_TARGET.tar.gz
+sudo ./tables-manager
+```
+
+### 运行（源码）
+
+```bash
 sudo cargo run
 ```
 
@@ -112,5 +139,5 @@ sudo cargo run
 
 ### 说明
 
-- 恢复会列出 `/var/backups/firewall-manager` 的备份。
+- 恢复会列出 `/var/backups/tables-manager` 的备份。
 - DRY-RUN 仅打印命令，不会执行。

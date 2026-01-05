@@ -17,7 +17,7 @@ use ratatui::text::{Line, Span, Text};
 use ratatui::widgets::{Block, Borders, Clear, List, ListItem, ListState, Paragraph, Wrap};
 use ratatui::Terminal;
 
-const BACKUP_DIR: &str = "/var/backups/firewall-manager";
+const BACKUP_DIR: &str = "/var/backups/tables-manager";
 const NFT_RULES_FILE: &str = "/etc/firewall-manager/nftables.rules";
 const IPTABLES_RULES_FILE: &str = "/etc/firewall-manager/iptables.rules";
 const NFT_FAMILY: &str = "inet";
